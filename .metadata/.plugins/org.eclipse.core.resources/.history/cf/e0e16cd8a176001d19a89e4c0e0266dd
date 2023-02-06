@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+          <%@ page import="java.sql.*" %>
+    <%@ page import ="rwk51_boardgame_mall.model.boardgame.*" %>
+    
+    <%@ page import ="java.util.*" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<%@ include file= "/header.jsp" %>
+<body>
+<%
+	BoardgameDTO boardgame;
+	ArrayList<BoardgameDTO>boardgameList;
+	boardgameList = (ArrayList<BoardgameDTO>)request.getAttribute("boardgameList");
+%>
+<div>
+		
+		<%
+		for(int i = 0 ; i<boardgameList.size(); i++){
+			boardgame = boardgameList.get(i);	
+		%>
+		<div style="text-align:left;">
+			<img src ="<%=oriDir%>/<%=boardgame.getB_image()%>"/>
+			<p><%=boardgame.getB_image()%></p>
+		</div>	
+		<div style="text-align:right;">
+			<p>이름 : <%=boardgame.getB_name() %></p>
+			<p>가격 : <%=boardgame.getB_price() %></p>
+			<p>적정 나이 : <%=boardgame.getB_age() %><%=boardgame.getB_agestate() %></p>
+			<p>시간 : <%=boardgame.getB_time() %></p>
+			<p>적정 인원 : <%=boardgame.getB_player() %></p>
+			<p>카테고리 : <%=boardgame.getB_category() %></p>
+			<p>배송비 : <%=boardgame.getB_charge() %></p>
+			<button>상품구매</button>
+			<button>장바구니 담기</button>
+		<%
+			if(session.getAttribute("user_class").equals("admin")){
+			%>
+				<br>
+				<br>
+				<a  href="#">상품 수정</a>
+				<a onclick="return b_deletechk()" href="#">상품 삭제</a>
+				<br>
+			<%
+			}
+			%>
+		</div>
+			<p style="text-align:center;">상품 설명 : <%=boardgame.getB_content() %></p>
+			<br>
+		<%
+		}
+		%>
+		
+	</div>
+	<%@ include file= "/footer.jsp" %>
+</body>
+</html>

@@ -1,0 +1,46 @@
+use rwk51_boardgame_mall;
+
+drop table user
+
+create table user(
+	user_num INT primary key auto_increment ,
+	user_id varchar(30) unique not null, 
+	user_passwd varchar(30) not null,
+	user_name varchar(30) not null,
+	user_RRN varchar(30) unique not null,
+	user_email varchar(30) unique,
+	user_phone varchar(30) unique,
+	user_class varchar(30) not null default 'user' ,
+	user_address varchar(50) not null,
+	user_addressdetail varchar(50) not null
+);
+
+insert into user 
+values("1", "a", "a", "a", "a", "a","a","user","주소","상세주소"  );
+
+insert into user 
+values("2", "b", "b", "b", "b", "b","b","user","주소","상세주소"  );
+
+insert into user 
+values("3", "c", "c", "c", "c", "c","c","user","주소","상세주소"     );
+
+insert into user 
+values("4", "d", "d", "d", "d", "d","d","user","주소","상세주소"     );
+
+insert into user 
+values("5", "e", "e", "e", "e", "e","e","user" ,"주소","상세주소"    );
+
+insert into user 
+values("6", "f", "f", "f", "f", "f","f","user"  ,"주소","상세주소"   );
+
+insert into user 
+values("7", "g", "g", "g", "g", "g","g","user"   ,"주소","상세주소"  );
+
+insert into user 
+values("8", "h", "h", "h", "h", "h","h","user"   ,"주소","상세주소"  );
+
+insert into user 
+values("9", "i", "i", "i", "i", "i","i","user" ,"주소","상세주소"    );
+
+
+values("10", "j", "j", "j", "j", "j","j","user"   );

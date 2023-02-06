@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;rwk51_mvc_beer/src/main/java/rwk51_mvc_beer/model/beer/BeerPageinfoVO.java&apos; to &apos;BeerPageInfoVO.java&apos;" description="Rename resource &apos;BeerPageinfoVO.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/rwk51_mvc_beer/model/beer/BeerPageinfoVO.java" name="BeerPageInfoVO.java" stamp="1666758568434" updateReferences="true"/>
+</session>

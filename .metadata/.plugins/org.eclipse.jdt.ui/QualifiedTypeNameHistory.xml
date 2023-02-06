@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.util.Enumeration"/>
+    <fullyQualifiedTypeName name="rwk51_mvc_beer4.controller.beer.ActionForward"/>
+    <fullyQualifiedTypeName name="rwk51_mvc_beer4.model.beer.BeerPageInfoVO"/>
+    <fullyQualifiedTypeName name="javax.servlet.HttpConstraintElement"/>
+    <fullyQualifiedTypeName name="javax.swing.Action"/>
+    <fullyQualifiedTypeName name="rwk51_boardgame_mall.model.user.UserDAO"/>
+    <fullyQualifiedTypeName name="rwk51_boardgame_mall.model.boardgame.BoardgameDAO"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="org.jsoup.Connection"/>
+</qualifiedTypeNameHistroy>

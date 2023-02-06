@@ -1,0 +1,10 @@
+127.0.0.1 - - [26/Oct/2022:12:50:31 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:12:50:32 +0900] "GET /rwk51_mvc_beer/index.jsp HTTP/1.1" 200 300
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:12:50:32 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:14:03:26 +0900] "GET /rwk51_mvc_beer/index.jsp HTTP/1.1" 200 1672
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:14:03:30 +0900] "GET /rwk51_mvc_beer/com/yju/2wda/team2/view/beer/beer_c.jsp HTTP/1.1" 200 128
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:14:03:32 +0900] "GET /rwk51_mvc_beer/com/yju/2wda/team2/view/beer/beer_r_drc.jsp HTTP/1.1" 200 128
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:14:03:35 +0900] "GET /rwk51_mvc_beer/com/yju/2wda/team2/controller/beer/BeerController.jsp?actionType=R HTTP/1.1" 500 4789
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:14:03:41 +0900] "GET /rwk51_mvc_beer/com/yju/2wda/team2/controller/beer/BeerController.jsp?actionType=R HTTP/1.1" 500 4789
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:14:03:55 +0900] "GET /rwk51_mvc_beer/com/yju/2wda/team2/controller/beer/BeerController.jsp?actionType=U HTTP/1.1" 500 4789
+0:0:0:0:0:0:0:1 - - [26/Oct/2022:14:03:57 +0900] "GET /rwk51_mvc_beer/com/yju/2wda/team2/controller/beer/BeerController.jsp?actionType=R4 HTTP/1.1" 500 3096

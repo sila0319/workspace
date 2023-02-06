@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;beer_c.jsp, beer_d.jsp, beer_r_drc.jsp, beer_r.jsp, beer_r4.jsp, beer_u.jsp, beer_u2.jsp&apos; to &apos;beer&apos;" description="Move 7 resources to &apos;beer&apos;" destination="src/main/webapp/com/yju/2wda/team2/view/beer" element1="src/main/webapp/com/yju/2wda/team2/view/beer_c.jsp" element2="src/main/webapp/com/yju/2wda/team2/view/beer_d.jsp" element3="src/main/webapp/com/yju/2wda/team2/view/beer_r_drc.jsp" element4="src/main/webapp/com/yju/2wda/team2/view/beer_r.jsp" element5="src/main/webapp/com/yju/2wda/team2/view/beer_r4.jsp" element6="src/main/webapp/com/yju/2wda/team2/view/beer_u.jsp" element7="src/main/webapp/com/yju/2wda/team2/view/beer_u2.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="7" stamp="1667355492009" updateReferences="true"/>
+</session>

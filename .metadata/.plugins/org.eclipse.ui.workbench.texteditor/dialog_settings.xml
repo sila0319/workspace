@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="./updateUserListDisplay"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="./deleteUserListDisplay"/>
+			<item value="./deleteUserForId"/>
+			<item value="margin"/>
+			<item value="display"/>
+			<item value="메인메뉴"/>
+			<item value="b_addchk"/>
+			<item value="./getBoardgameList.be"/>
+			<item value="&amp;category=&lt;%=category%&gt;"/>
+			<item value="updateUser"/>
+			<item value="update"/>
+			<item value="deleteUserListDisplay"/>
+			<item value="upiVO"/>
+			<item value="updateUserListDisplay"/>
+			<item value="beer"/>
+			<item value="/deleteBeerListDisplay"/>
+		</list>
+		<list key="replacehistory">
+			<item value="./updateUserListDisplay"/>
+			<item value="./updateUserDisplay"/>
+			<item value="./searchBoardgame.be"/>
+			<item value=""/>
+			<item value="getBoardgameList"/>
+			<item value="bpiVO"/>
+			<item value="updateUserListDisplay"/>
+			<item value="user"/>
+			<item value="/deleteUserListDisplay"/>
+			<item value="UserDTO"/>
+			<item value="beerImagePageInfo"/>
+			<item value="./BeerMultiController.be2?actionType=R5"/>
+			<item value="actionType=D"/>
+			<item value="U2"/>
+			<item value="fileUploadProj02"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1051"/>
+		<item key="DIALOG_Y_ORIGIN" value="218"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="J2EE_EXPORT_OVERWRITE" value="false"/>
+	<item key="J2EE_EXPORT_SOURCE" value="false"/>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="Apache Tomcat v9.0 (4)"/>
+		<item value="Apache Tomcat v9.0 (3)"/>
+		<item value="Apache Tomcat v9.0"/>
+	</list>
+	<list key="J2EE_IMPORT_null">
+		<item value="C:\Users\유원규\Desktop\2학년2학기 학교수업\member01.war"/>
+		<item value="C:\Users\유원규\Desktop\member01.war"/>
+		<item value="C:\Users\유원규\Desktop\member_2조.war"/>
+		<item value="C:\Users\유원규\Desktop\member01_front_final.war"/>
+		<item value="C:\Users\유원규\Desktop\member프론트.war"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="D:\dev\workspace\rwk51_boardgame_mall\build\rwk51_boardgame_mall.war"/>
+		<item value="C:\Users\유원규\Desktop\자바 코드 문서화\rwk51_mvc_beer3.war"/>
+		<item value="C:\Users\유원규\Desktop\rwk51_mvc_beer3.war"/>
+		<item value="C:\Users\유원규\Desktop\보고서\proj_rwk51.war"/>
+		<item value="C:\Users\유원규\Desktop\proj_rwk51.war"/>
+	</list>
+</section>
