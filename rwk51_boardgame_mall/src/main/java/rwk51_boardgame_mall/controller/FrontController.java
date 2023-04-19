@@ -1,3 +1,4 @@
+
 package rwk51_boardgame_mall.controller;
 
 import rwk51_boardgame_mall.controller.*;
@@ -133,13 +134,6 @@ public class FrontController extends HttpServlet implements Servlet {
 			
 		case "/getCartList.be":
 			action = new GetCartListAction();
-			break;
-			
-		case "/deleteCartForUserNum.be":
-			action = new DeleteCartForUserNumAction();
-			break;
-		case "/deleteCartForCID.be":
-			action = new DeleteCartForCIDAction();
 			break;
 
 		}

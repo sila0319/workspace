@@ -1,0 +1,19 @@
+use rwk51_boardgame_mall;
+
+drop table boardgame
+
+create table boardgame(
+	b_id int primary key auto_increment,
+	b_code varchar(30) not null unique,
+	b_category varchar(30) not null,
+	b_name varchar(30) not null,
+	b_price int not null,
+	b_age int not null,
+	b_agestate varchar(30) not null,
+	b_player varchar(30) not null,
+	b_time varchar(30) not null,
+	b_content varchar(500) ,
+	b_charge Int default 0,
+	b_image varchar(30) default 'baseImage.jpg'
+);
+

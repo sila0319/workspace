@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div th:fragment="target(first, second)">
+		<style>
+			.c1 {
+				background-color : skyblue;
+			}
+			.c2 {
+				background-color : yellow;
+			}
+		</style>
+		
+		<div class="c1">
+			<th:block th:replace="${first}"></th:block>
+		</div>
+		
+		<div class="c2">
+			<th:block th:replace="${second}"></th:block>
+		</div>
+	</div>
+</body>
+</html>

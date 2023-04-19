@@ -59,7 +59,7 @@
 	
 		<div class="col-lg-7 center" >
 			<div class="jumbotron" style="padding-top: 20px;">
-				<h3 style="text-align: center;" class="mb-4">회원가입</h3>
+				<h3 style="text-align: center;" class="mb-4">상품등록</h3>
 				
 				<!-- form -->
 				
