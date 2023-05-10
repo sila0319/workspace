@@ -82,13 +82,18 @@ public class GuestbookController {
 
         service.modify(dto);
         
-        redirectAttributes.addFlashAttribute("page", requestDTO.getPage());
-        redirectAttributes.addFlashAttribute("type", requestDTO.getType());
-        redirectAttributes.addFlashAttribute("keyword", requestDTO.getKeyword());
-        redirectAttributes.addFlashAttribute("gno", dto.getGno());
+//        redirectAttributes.addFlashAttribute("page", requestDTO.getPage());
+//        redirectAttributes.addFlashAttribute("type", requestDTO.getType());
+//        redirectAttributes.addFlashAttribute("keyword", requestDTO.getKeyword());
+//        redirectAttributes.addFlashAttribute("gno", dto.getGno());
+        
+        redirectAttributes.addAttribute("page", requestDTO.getPage());
+        redirectAttributes.addAttribute("type", requestDTO.getType());
+        redirectAttributes.addAttribute("keyword", requestDTO.getKeyword());
+        redirectAttributes.addAttribute("gno", dto.getGno());
       
 
-        return "redirect:/guestbook/list";
+        return "redirect:/guestbook/read";
 
     } // modify() 끝
     
